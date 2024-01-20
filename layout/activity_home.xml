@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Types of Sport Fields"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnFootball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Football"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBasketball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSwimmingPools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swimming Pools"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnTennis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tennis"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>
